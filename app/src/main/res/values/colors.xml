@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ig_light_gray">#E0E0E0</color>
+    <color name="ig_pink">#F8BBD0</color>
+    <color name="ig_blue">#BBDEFB</color>
+    <color name="ig_purple">#D1C4E9</color>
+    <color name="ig_divider">#DDDDDD</color>
+</resources>
