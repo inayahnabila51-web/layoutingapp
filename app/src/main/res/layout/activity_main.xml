@@ -37,6 +37,7 @@
                 app:cardElevation="0dp">
 
                 <ImageView
+                    android:id="@+id/ivProfilePhoto"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
@@ -52,6 +53,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/tvUsername"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="nabinay"
@@ -113,6 +115,7 @@
 
         <!-- Bio -->
         <TextView
+            android:id="@+id/tvBio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nabila Inayah\nInspired by the fear of being average"
@@ -126,6 +129,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btnEditProfile"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -146,7 +150,6 @@
 
         <!-- Garis pembatas -->
         <View
-
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/ig_divider"
@@ -157,7 +160,6 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:orientation="horizontal">
-
 
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
@@ -171,7 +173,6 @@
                     android:scaleType="centerCrop"
                     android:src="@drawable/foto1" />
             </androidx.cardview.widget.CardView>
-
 
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
